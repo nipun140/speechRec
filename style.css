@@ -1,0 +1,46 @@
+span {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid;
+}
+
+h2 {
+    font-style: italic;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.navbar.navbar-inverse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #222;
+    border-color: #080808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}

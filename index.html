@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speechToText</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <nav class="navbar navbar-inverse">
+        Speech-recognition System
+    </nav>
+
+    <!-- main content  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <span>text:</span>
+                <h2 id="text"></h2>
+                <hr>
+                <span>confidence In Your Voice:</span>
+                <h2 id="confidence"></h2>
+                <button onclick="convert()" class="btn btn-lg btn-primary">Start</button>
+                <h3 id="info">Click start button for us to hear You</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        | 2021 | made by Nipun |
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
+
+</html>
